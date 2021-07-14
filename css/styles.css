@@ -182,8 +182,13 @@ animation: up1 3s infinite ease-in;
 
 .circle{
 position: absolute;
-width: 127px;
-height: 127px;
+width: 50%;
+height: 28%;
 left: 101px;
 top: 409px;
+}
+.circle img{
+    width: 95%;
+    border-radius: 50%;
+    height: 100%;
 }
