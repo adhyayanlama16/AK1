@@ -1,59 +1,244 @@
+*{
+    list-style: none;
+}
 body{
     position: relative;
     width: 360px;
     height: 640px;
     background: #b2b9d8;
+    max-height: 640px;
+    max-width: 395px;
+    
     }
 .round{
     position: absolute;
-    width: 90px;
-    height: 94px;
+    width: 38px;
+    height: 40px;
     left: 108px;
-    top: -39px;
+    top: -5px;
     
     background: #b2b9d8;
-    border: 12px solid #F93E5F;
-    border-radius: 50px;
+    border: 5px solid #f03f59;
     box-sizing: border-box;
-    animation: bounce 3s infinite ease-in;
+    animation: bounce 15s infinite ease-in;
+    box-shadow: 1px 1px 1px #47393b;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0px 2px;
+    padding-right: 2px;
+    justify-content: center;
+    color: rgb(56, 44, 56);
 }
 @keyframes bounce{
-    0%,100%{
-        transform: translateX(0);
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-90px);
     }
     50%{
-        transform: translateX(30px);
+        transform: translateY(90px);
+
     }
+    75%{
+        transform: translateX(40px);
+    }
+   
 }
-
-.sidenav .s1{
-    padding: 0;    
-    position: absolute;
-    width: 32px;
-    height: 0px;
-    left: 316px;
-    top: 23px;
-    border: 3px solid #000000;
-}
-
-.sidenav .s2{
-    position: absolute;
-    width: 32px;
-    height: 0px;
-    left: 316px;
-    top: 12px;
-    
-    border: 3.5px solid #000000;
-}
-.sidenav .s3{
-        position: absolute;
-        width: 32px;
-        height: 0px;
-        left: 316px;
-        top: 32px;
+.sidebar{
+   
+        position: fixed;
+        top: 0rem;
+        left: -125px;
+        width: 95px;
+        height: 50%;
+        background: rgb(238, 237, 237);
+        transition: all .5s ease;
+        z-index: 999;
+       
         
-        border: 3.5px solid #000000;     
 }
+    
+    .sidebar header{
+        font-size: 22px;
+        color: rgb(20, 20, 20);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        padding-left: 20px;
+        padding-top: 15px;
+        background:rgb(211, 206, 189);
+        user-select: none;
+        position: relative;
+        height: 46px;
+        
+    }
+    
+    .sidebar ul a{
+       
+        
+        display: block;
+        height: 50%;
+        width: 5px;
+        left: -13px;
+        font-size: 13px;
+        position: relative;
+        padding-top: 8px;
+        padding-bottom: 15px;
+        font-size: 14px;
+       
+        
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(10, 10, 10, 0.1);
+        transition: .4s;
+    }
+    
+    .sidebar ul li:hover a{
+        padding-left: 4rem;
+    }
+    label #btn,label #cancel{
+        position:absolute;
+        cursor: pointer;
+    }
+    #check{
+      top: 10px;
+      left: 3px;
+      display: none;
+      position: absolute;
+       
+    }
+    
+    label #btn{
+        
+        font-size: 38px;
+        color: rgb(34, 32, 32);
+        position: absolute;
+        top: 1.2px;
+        left: -1.5px;
+        z-index: 1;
+    }
+    label #cancel{
+        z-index: 1000;
+        left: -130px;
+        top: 300.3px;
+        font-size: 15px;
+        transition: all .5s ease;
+        color: rgb(75, 10, 88);
+        
+    }
+    
+    label #cancel:hover{
+        padding-left: 2px;
+    }
+    
+    #check:checked ~ .sidebar{
+        left: 0rem;
+    }
+    
+    #check:checked ~ label #btn{
+        left: 25px;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    #check:checked ~ label #cancel{
+        left: 30.0px;
+    }
+    
+.tr1{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 41.01px;
+    top: 77.61px;
+    content: " ";
+
+    
+    border-top: 30px solid transparent;
+    border-left: 35px solid rgb(231, 191, 198);
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(103.09deg);
+    
+    
+
+}
+.tr2{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 125.01px;
+    top: 31.61px;
+    content: " ";
+
+    
+    border-top: 27px solid transparent;
+    border-left: 35px solid rgb(170, 126, 126);
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(94.09deg);
+    
+    
+
+}
+
+.tr3{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 187.01px;
+    top: -23.65px;
+    content: " ";
+
+    
+    border-top: 27px solid transparent;
+    border-left: 35px solid rgb(231, 191, 198);
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(89.09deg);
+    
+    
+
+}
+.tr4{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 265.01px;
+    top: -84.81px;
+    content: " ";
+
+    
+    border-top: 27px solid transparent;
+    border-left: 35px solid rgb(170, 126, 126);
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(84.09deg);
+   
+
+}
+
+
+
+.tr5{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 325.01px;
+    top: -150.65px;
+    content: " ";
+
+    
+    border-top: 27px solid transparent;
+    border-left: 35px solid rgb(231, 191, 198);
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(79.09deg);
+    
+    
+
+}
+
+
 .triangle{
     position: relative;
     width: 0px;
@@ -112,9 +297,9 @@ body{
 }
 .hang{
     position: absolute;
-    width: 410.43px;
+    width: 405.43px;
     height: 100px;
-    left: -25.88px;
+    left: -36.88px;
     top: 20px;
     border: solid 3px #000;
     border-color: transparent transparent #000 transparent;
@@ -189,7 +374,7 @@ z-index: -1;
 }
 @keyframes up{
     0%{
-        transform: translateY(600px);
+        transform: translateY(550px);
     }
     100%{
         transform: translateY(-310px);
@@ -206,7 +391,7 @@ animation: up1 20s infinite ease-in;
 }
 @keyframes up1{
     0%{
-        transform: translateY(600px);
+        transform: translateY(550px);
     }
     100%{
         transform: translateY(-310px);
@@ -217,7 +402,7 @@ animation: up1 20s infinite ease-in;
 position: absolute;
 width: 50%;
 height: 28%;
-left: 121px;
+left: 106px;
 top: 409px;
 }
 .circle img{
