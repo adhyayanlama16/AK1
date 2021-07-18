@@ -7,7 +7,7 @@ body{
     height: 640px;
     background: #b2b9d8;
     max-height: 640px;
-
+    max-width: 395px;
     
     }
 .round{
@@ -297,7 +297,7 @@ body{
 }
 .hang{
     position: absolute;
-    width: 425.43px;
+    width: 405.43px;
     height: 100px;
     left: -36.88px;
     top: 20px;
