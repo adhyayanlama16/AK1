@@ -116,9 +116,10 @@ body{
         z-index: 1;
     }
     label #cancel{
+        position: relative;
         z-index: 1000;
-        left: -10px;
-        top: 300.3px;
+        left: -363px;
+        top: 303px;
         font-size: 15px;
         transition: all .5s ease;
         color: rgb(75, 10, 88);
