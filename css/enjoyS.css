@@ -14,6 +14,62 @@ body{
 }
 
 .p2{
-    font-size: 100px;
+    position: absolute;
+    top: 600px;
+    font-size: 44px;
+    left: 100px;
+    font-family: 'Secular One', sans-serif;
+
 }
+.p2i{
+    position: absolute;
+    top: 650px;
+    font-size: 50px;
+    padding-top: 20px;
+    left: 60px;
+    font-family: 'Sacramento', cursive;
+        
+}
+.f-img img{
+
+    position: relative;
+    width: 200px;
+    top: 800px;
+    left: 100px;
+
+}
+.f-img1 img{
+
+    position: relative;
+    width: 200px;
+    top: 900px;
+    left: 100px;
+    height: 250px;
+    padding-top: 15px;
+
+}
+.pb{
+    position: relative;
+    width: 100px;
+    top: 580px;
+    left: 170px;
+}
+.pb1{
+    position: relative;
+    width: 100px;
+    top: 718px;
+    left: 170px;
+    
+}
+.pbgif img{
+    position: relative;
+    width: 160px;
+    top: 400px;
+    left: 120px;
+}
+.bottom{
+    position: relative;
+    top: 1000px;
+}
+
 
