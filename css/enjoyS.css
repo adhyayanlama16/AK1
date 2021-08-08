@@ -42,13 +42,13 @@ body{
 
     position: relative;
     width: 200px;
-    top: 900px;
+    top: 960px;
     left: 100px;
     height: 250px;
     padding-top: 15px;
 
 }
-.pb{
+.video-player .pb{
     position: relative;
     width: 100px;
     top: 580px;
@@ -57,19 +57,39 @@ body{
 .pb1{
     position: relative;
     width: 100px;
-    top: 718px;
+    top: 800px;
     left: 170px;
     
 }
 .pbgif img{
     position: relative;
     width: 160px;
-    top: 400px;
+    top: 450px;
     left: 120px;
 }
 .bottom{
     position: relative;
     top: 1000px;
 }
+.video-player{
 
+    position: relative;
+    left: 197.19px;
+    height: 100px;
+    transform: translate(-50%,-50%);
+    
+}
+#cross{
+    position: relative;
+    width: 100px;
+    top: -295px;
+    left: 363px;
+}
+.close-btn{
+
+    position: absolute;
+    width: 30px;
+    top: 10px;
+    left: 355px;
+}
 

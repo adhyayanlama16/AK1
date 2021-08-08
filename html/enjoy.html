@@ -11,7 +11,8 @@
      rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Video</title>
+    <script src="../js/play.js"></script>
+     <title>Video</title>
 </head>
 <body>
     <section class="p1">
@@ -26,22 +27,29 @@
         </div>
         <div class="f-img">
             <img src="../img/v/e.jpg" alt="">
-        <div class="pb"> 
-            <i class="fa fa-play-circle-o" 
-            style="font-size:78px;color:rgb(245, 72, 72);border-radius: 2px black"></i>
-        </div>       
+            
         </div>
         <div class="f-img1">
             <img src="../img/v/d.png" alt="">
         </div>
         <div class="pb1"> 
             <i class="fa fa-play-circle-o" 
-            style="font-size:78px;color:rgb(202, 247, 255);border-radius: 2px black"></i>
+            style="font-size:78px;color:rgb(220, 253, 255);border-radius: 2px black" onclick="playVideo('../img/v/')"></i>
         </div> 
         <div class="pbgif">
             <img src="../img/v/r.gif" alt="">
         </div>
-       
+        <div class="video-player" id="videoPlayer">
+            <video width="100%" controls autoplay id="myVideo">
+                <source src="../img/FRIENDS.mp4" type="video/mp4">
+            </video>
+            <div class="pb">
+                <i class="fa fa-play-circle-o" 
+                style="font-size:78px;color:rgb(245, 72, 72);border-radius: 2px black" onclick="playVideo('../img/FRIENDS.mp4')"></i>   
+            </div> 
+            <img src="../img/v/cross.jpg" class="close-btn" alt="" onclick="">
+        </div>
+         
     </section>
     <section class="bottom">
         sa
