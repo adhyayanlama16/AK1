@@ -77,6 +77,7 @@ body{
     left: 197.19px;
     height: 100px;
     transform: translate(-50%,-50%);
+    display: none;
     
 }
 #cross{
@@ -84,6 +85,12 @@ body{
     width: 100px;
     top: -295px;
     left: 363px;
+}
+.play-btn img{
+    position: absolute;
+    width: 70px;
+    top: 950px;
+    left: 165px;
 }
 .close-btn{
 
