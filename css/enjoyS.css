@@ -16,9 +16,10 @@ body{
 .p2{
     position: absolute;
     top: 600px;
-    font-size: 44px;
+    font-size: 88px;
     left: 100px;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
 
 }
 .p2i{
@@ -38,6 +39,16 @@ body{
     left: 100px;
 
 }
+
+.play-btn img{
+    width: 100px;
+    position: absolute;
+    top: 920px;
+    cursor: pointer;
+    left: 150px;
+    transition: 0.5s;
+}
+
 .f-img1 img{
 
     position: relative;
@@ -48,55 +59,16 @@ body{
     padding-top: 15px;
 
 }
-.video-player .pb{
-    position: relative;
-    width: 100px;
-    top: 580px;
-    left: 170px;
-}
-.pb1{
-    position: relative;
-    width: 100px;
-    top: 800px;
-    left: 170px;
+
     
-}
+
 .pbgif img{
-    position: relative;
+    position: absolute;
     width: 160px;
-    top: 450px;
+    top: 1180px;
     left: 120px;
 }
-.bottom{
-    position: relative;
-    top: 1000px;
-}
-.video-player{
 
-    position: relative;
-    left: 197.19px;
-    height: 100px;
-    transform: translate(-50%,-50%);
-    display: none;
-    
-}
-#cross{
-    position: relative;
-    width: 100px;
-    top: -295px;
-    left: 363px;
-}
-.play-btn img{
-    position: absolute;
-    width: 70px;
-    top: 950px;
-    left: 165px;
-}
-.close-btn{
 
-    position: absolute;
-    width: 30px;
-    top: 10px;
-    left: 355px;
-}
+
 

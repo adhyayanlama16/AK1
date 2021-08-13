@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/enjoyS.css">
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" 
-    rel="stylesheet">
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Secular+One&display=swap"
-     rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-     crossorigin="anonymous" referrerpolicy="no-referrer" />
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
     
      <title>Video</title>
 </head>
@@ -26,9 +33,25 @@
             Belle Femme
         </div>
         <div class="f-img">
-            <img src="../img/v/e.jpg" alt="">
-            <img src="../img/v/play.png" class="play-btn" data-toggle="modal", data-target="#exampleModalCenter">
-            
+            <img src="../img/v/e.jpg" class="img-fluid">
+        </div>    
+        <div class="play-btn">
+            <img src="../img/v/play.png" data-toggle="modal" data-target="#play-video-1">
+        </div>    
+       
+        <div class="modal fade" id="play-video-1">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <video width="100%" controls>
+                            <source src="../img/FRIENDS.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
         <div class="f-img1">
             <img src="../img/v/d.png" alt="">
@@ -38,32 +61,13 @@
             <img src="../img/v/r.gif" alt="">
         </div>
          
-        <div class="video-player" id="videoPlayer">
-            <video width="100%" controls autoplay id="myVideo">
-               <source src="../img/FRIENDS.mp4" type="video/mp4">
-            </video>
-            
-            <img src="../img/v/cross.jpg" class="close-btn"  onclick="stopVideo()">
-        </div>
+       
          
     </section>
     <section class="bottom">
-        sa
+        
     </section>
 
-    <script>
-        var  videoPlayer= document.getElementById("videoPlayer");
-        var myVideo = document.getElementById("myVideo")
-
-        function stopVideo(){
-            
-            videoPlayer.pause();
-            }
-
-        function playVideo(file){
-            myVideo.src=file;
-            videoPlayer.style.display="block";  
-            }  
-    </script>
+    
 </body>
 </html>
