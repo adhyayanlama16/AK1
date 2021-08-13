@@ -78,6 +78,45 @@ body{
     left: 120px;
 }
 
+.footer{
+    position: absolute;
+    top: 1600px;
+    width: 394px;
+    height: 30px;
+    background-color: rgb(172, 172, 172);
+}
 
+.home{
+    position: absolute;
+    padding-top: 2px;
+    left: 20px;
+    font-size: 20px;
 
+}
+
+.bday{
+    position: absolute;
+    left: 100px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+.friends{
+    position: absolute;
+    left: 190px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+.video{
+    position: absolute;
+    left: 280px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+.song{
+    position: absolute;
+    left: 350px;
+    padding-top: 2px;
+    font-size: 20px;
+}
 
