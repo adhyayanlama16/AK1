@@ -62,7 +62,14 @@ body{
 
 }
 
-    
+.play-btn1 img{
+    width: 100px;
+    position: absolute;
+    top: 1400px;
+    cursor: pointer;
+    left: 150px;
+    transition: 0.5s;
+}    
 
 .pbgif img{
     position: absolute;
