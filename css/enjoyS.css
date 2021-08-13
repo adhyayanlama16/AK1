@@ -13,20 +13,22 @@ body{
     
 }
 
-.p2{
+
+
+.bon{
     position: absolute;
-    top: 600px;
-    font-size: 88px;
-    left: 100px;
+    top: 590px;
+    font-size: 50px;
+    padding-top: 20px;
+    left: 80px;
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
-
 }
 .p2i{
     position: absolute;
     top: 650px;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 50px;
     left: 60px;
     font-family: 'Sacramento', cursive;
         
