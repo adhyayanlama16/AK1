@@ -55,9 +55,9 @@ body{
 
     position: relative;
     width: 200px;
-    top: 960px;
+    top: 860px;
     left: 100px;
-    height: 250px;
+    height: 300px;
     padding-top: 15px;
 
 }
@@ -65,7 +65,7 @@ body{
 .play-btn1 img{
     width: 100px;
     position: absolute;
-    top: 1400px;
+    top: 1300px;
     cursor: pointer;
     left: 150px;
     transition: 0.5s;

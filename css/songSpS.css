@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+.imag img{
+    position: absolute;
+    width: 18rem;
+    height: 16rem;
+    left: 3.5rem;
+    top: 15rem;
+}
+
+.name{
+    position: absolute;
+    width: 18rem;
+    height: 3rem;
+    left: 3.5rem;
+    top: 4rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight:lighter;
+    background-color: burlywood;
+}
+
+.previous a{
+    position: absolute;
+    font-size: 2rem;
+    top: 40rem;
+    left: 2rem;
+    text-decoration: none;
+}
+.previous1{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bold;
+    top: 40.2rem;
+    left: 4rem;
+}
