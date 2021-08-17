@@ -5,21 +5,36 @@
 
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/w/bg.jpg);
+    background: rgba(0 ,0, 0, 0.3) url('../img/w/lon.jpg');
+    background-blend-mode: darken;
 }
 
-.slide-first{
-position: absolute;
-width: 287px;
-height: 516px;
-left: 18px;
-top: 75px;
 
-background: url(../img/b/1.jpg);
-border: 5px solid #5F5A5A;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+.gift img{
+    position: absolute;
+    width: 90px;
+    top: 640px;
+    left: 150px;
+    
+}
+.title{
+    position: absolute;
+    width: 25rem;
+    color: rgb(195, 195, 235);
+    font-family: 'Yellowtail', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    left: 1.5rem;
+    top: 7rem;
+}
+.g{
+    position: absolute;
+    width: 25rem;
+    color: rgb(195, 195, 235);
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    left: 5.5rem;
+    top: 37rem;
 }

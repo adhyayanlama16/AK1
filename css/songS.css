@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url(../img/w/song.jpg);
+}
+
+.ins{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -80px;
+    top: 360px;
+    
+}
+

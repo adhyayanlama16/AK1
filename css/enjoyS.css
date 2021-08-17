@@ -71,19 +71,14 @@ body{
     transition: 0.5s;
 }    
 
-.pbgif img{
-    position: absolute;
-    width: 160px;
-    top: 1180px;
-    left: 120px;
-}
+
 
 .footer{
     position: absolute;
     top: 1600px;
     width: 394px;
     height: 30px;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(230, 220, 220);
 }
 
 .home{
@@ -91,6 +86,7 @@ body{
     padding-top: 2px;
     left: 20px;
     font-size: 20px;
+    
 
 }
 
