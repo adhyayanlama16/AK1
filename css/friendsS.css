@@ -241,3 +241,10 @@ animation: bx1 15s infinite ease-in;
       top: 1200px;
       left: 130px;
   }   
+  .f4 img{
+    position: absolute;
+      width: 200px;
+      height: 250px;
+      top: 1500px;
+      left: 100px;
+  }   
