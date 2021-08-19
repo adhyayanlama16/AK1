@@ -48,4 +48,18 @@ body{
     font-weight: bold;
 
 }
+.home a{
+    position: absolute;
+    top: 47rem;
+    left: 1rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.home1{
+    position: absolute;
+    top: 47.4rem;
+    left: 2.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 
+}

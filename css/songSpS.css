@@ -19,7 +19,7 @@ body{
     position: absolute;
     width: 18rem;
     height: 3rem;
-    left: 3.5rem;
+    left: 3rem;
     top: 4rem;
     padding-left: 1rem;
     font-size: 2rem;
@@ -40,4 +40,11 @@ body{
     font-weight: bold;
     top: 40.2rem;
     left: 4rem;
+}
+
+.music{
+    position: absolute;
+    top: 33rem;
+    left: 3rem;
+
 }
