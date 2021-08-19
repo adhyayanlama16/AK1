@@ -247,4 +247,11 @@ animation: bx1 15s infinite ease-in;
       height: 250px;
       top: 1500px;
       left: 100px;
-  }   
+  }
+  .f5 img{
+    position: absolute;
+      width: 200px;
+      height: 250px;
+      top: 1800px;
+      left: 100px;
+  }     
