@@ -215,10 +215,7 @@ animation: bx1 15s infinite ease-in;
     font-size: 60px;
     font-family: 'Pacifico', cursive;
   }
-  .f1{
-      
-
-  }
+ 
   .f1 img{
     position: absolute;
       width: 200px;
@@ -239,7 +236,7 @@ animation: bx1 15s infinite ease-in;
       width: 150px;
       height: 250px;
       top: 1200px;
-      left: 130px;
+      left: 130px; 
   }   
   .f4 img{
     position: absolute;
@@ -254,4 +251,25 @@ animation: bx1 15s infinite ease-in;
       height: 250px;
       top: 1800px;
       left: 100px;
+  }  
+  .f6 img{
+    position: absolute;
+      width: 200px;
+      height: 250px;
+      top: 2100px;
+      left: 100px;
+  }  
+  .f7 img{
+    position: absolute;
+      width: 200px;
+      height: 250px;
+      top: 2400px;
+      left: 100px;
   }     
+  .end{
+    position: absolute;
+      width: 200px;
+      height: 250px;
+      top: 2500px;
+      left: 100px;
+  }
